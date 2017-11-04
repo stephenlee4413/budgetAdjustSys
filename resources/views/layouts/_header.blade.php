@@ -12,7 +12,7 @@
 
             <!-- Branding Image -->
             <a class="navbar-brand" href="{{ url('/') }}">
-                财务决赛调整申报系统
+                财务决算调整申报系统
             </a>
         </div>
 
