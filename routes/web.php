@@ -44,3 +44,9 @@ Route::get('/test','AdjustTypeController@test')->name('test');
 //用户更新数据路由
 Route::any('/editdata/{id}','AdjustTypeController@edit')->name('edit');
 Route::post('/update/{id}/','AdjustTypeController@update')->name('update');
+
+/*
+|--------------------------------------------------------------------------
+| 导出excel
+|--------------------------------------------------------------------------*/
+Route::get('/export','ExportExcelController@exportExcel');
